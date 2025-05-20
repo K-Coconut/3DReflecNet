@@ -122,9 +122,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="static/images/teaser.pdf" alt="Teaser Image" style="width: 100%; height: auto;">
+      <img src="static/images/teaser.png" alt="Teaser Image" style="width: 100%; height: auto;">
       <h2 class="subtitle has-text-centered">
-        Replace this text with your teaser caption or remove it if not needed.
+        3D ReflectNet: A large-scale multi-view, object-centric dataset featuring reflective, transparent, and textureless objects. Providing high-quality annotations for 3D reconstruction.
       </h2>
     </div>
   </div>
@@ -139,8 +139,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+            Accurate 3D reconstruction of objects with reflective, transparent, or textureless surfaces remains a significant challenge. Such materials often violate key assumptions in multi-view reconstruction pipelines, such as photometric consistency and the reliance on distinct geometric texture cues. Existing datasets primarily focus on diffuse, textured objects, thereby offering limited insight into performance under real-world material complexities. In this paper, we introduce \textbf{\method}, a million-scale hybrid dataset specifically designed to benchmark and advance 3D reconstruction methods for these challenging materials. \method combines over 100,000 synthetic instances generated via physically-based rendering with more than 1,000 real-world scanned objects captured using consumer RGB-D devices. It encompasses diverse materials, complex lighting conditions, and a wide range of geometric forms—including shapes generated from both real and LLM-synthesized 2D images using diffusion-based methods. To support robust evaluation, we design benchmarks for five core tasks: structure-from-motion, novel view synthesis, reflection removal, image matching, and object relighting. Through extensive experiments, we show that state-of-the-art methods struggle to maintain accuracy across these settings, highlighting the need for more resilient 3D vision models. We release the dataset, baselines, and evaluation suite to facilitate progress in this direction.          </p>
         </div>
       </div>
     </div>
