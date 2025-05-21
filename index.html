@@ -154,25 +154,28 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Comparison</h2>
-          <!-- 上图（放大显示 + 左对齐） -->
-          <div style="margin: 0 0 2em 0; text-align: left; width: 225%; overflow-x: auto;">
-            <img src="static/images/comparison.png" alt="Comparison between other related datasets." 
-                style="width: 100%; height: auto; display: block; margin-left: -10%;">
-            <p style="font-size: 0.9em; color: #666; margin-top: 0.5em;">
-              Figure 3: Comparison between other related datasets. The symbol “#” denotes the total count, “PBR” refers to physically-based rendering, and “w/ Real” indicates the inclusion of real-world data.
-            </p>
+          <!-- 图片展示区，去掉滚动，设置左偏 + 放大 -->
+          <div style="margin: 0 auto 2em auto; width: 100%; max-width: 1200px;">
+            <!-- 第一张图 -->
+            <div style="text-align: left; margin-left: -40px;">
+              <img src="static/images/8d1bbc31-3d2a-401f-bde3-4ac4474b1751.png" 
+                  alt="Comparison and statistics overview"
+                  style="width: 110%; height: auto;">
+              <p style="font-size: 0.9em; color: #666; margin-top: 0.5em;">
+                Figure 3: Comparison between other related datasets. The symbol “#” denotes the total count, “PBR” refers to physically-based rendering, and “w/ Real” indicates the inclusion of real-world data.
+              </p>
+            </div>
+
+            <!-- 第二张图 -->
+            <div style="text-align: left; margin-left: -40px; margin-top: 3em;">
+              <img src="static/images/statistics.png" 
+                  alt="Summary statistics of the 3DReflecNet dataset"
+                  style="width: 110%; height: auto;">
+              <p style="font-size: 0.9em; color: #666; margin-top: 0.5em;">
+                Figure 4: Summary statistics of the 3DReflecNet dataset.
+              </p>
+            </div>
           </div>
-
-          <!-- 下图（放大显示 + 左对齐） -->
-          <div style="margin: 0 0 2em 0; text-align: left; width: 225%; overflow-x: auto;">
-            <img src="static/images/statistics.png" alt="Summary statistics of the 3DReflecNet dataset" 
-                style="width: 100%; height: auto; display: block; margin-left: -10%;">
-            <p style="font-size: 0.9em; color: #666; margin-top: 0.5em;">
-              Figure 4: Summary statistics of the 3DReflecNet dataset.
-            </p>
-          </div>
-
-
       </div>
     </div>
   </div>
