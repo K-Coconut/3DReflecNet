@@ -54,20 +54,13 @@
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">3DReflecNet: A Million-Scale Hybrid Dataset for 3D Reconstruction of Reflective, Transparent, and Textureless Objects</h1>
             <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-                  <span class="author-block">
+              <span class="author-block">
                     Anynomous Author
                   </span>
                 </div>
-                  <!-- <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div> -->
-
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
+                         <span class="link-block">
                         <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
@@ -151,27 +144,24 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Comparison with Related Dataset</h2>
-          <!-- 图片展示区，去掉滚动，设置左偏 + 放大 -->
-          <div style="margin: 0 auto 2em auto; width: 200%; max-width: 1200px;">
-            <!-- 第一张图 -->
-            <div style="text-align: left; margin-left: -400px;">
+    <div class="columns is-centered">
+      <div class="column">
+        <h2 class="title is-3 has-text-centered">Comparison with Related Dataset</h2>
+          <div style="margin: 2em auto; text-align: center;">
+            <div>
               <img src="static/images/comparison.png" 
                   alt="Comparison and statistics overview"
-                  style="width: 100%; height: auto;">
-              <p style="font-size: 1.5em; color: #666; margin-top: 0.5em;">
+                  style="width: 100%; max-width: 800px; height: auto; margin: auto;">
+              <p style="font-size: 1.2em; color: #666; margin-top: 0.5em;">
                 Figure 3: Comparison between other related datasets. The symbol “#” denotes the total count, “PBR” refers to physically-based rendering, and “w/ Real” indicates the inclusion of real-world data.
               </p>
             </div>
 
-            <!-- 第二张图 -->
-            <div style="text-align: left; margin-left: -400px; margin-top: 3em;">
+            <div style="margin-top: 3em;">
               <img src="static/images/statistics.png" 
                   alt="Summary statistics of the 3DReflecNet dataset"
-                  style="width: 110%; height: auto;">
-              <p style="font-size: 1.5em; color: #666; margin-top: 0.5em;">
+                  style="width: 100%; max-width: 800px; height: auto; margin: auto;">
+              <p style="font-size: 1.2em; color: #666; margin-top: 0.5em;">
                 Figure 4: Summary statistics of the 3DReflecNet dataset.
               </p>
             </div>
@@ -183,30 +173,35 @@
 
 <section class="section hero is-light">
   <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Dataset Overview</h2>
+    <div class="columns is-centered">
+      <div class="column">
+        <h2 class="title is-3 has-text-centered">Dataset Overview</h2>
+        
+        <div class="content has-text-centered" style="margin-bottom: 2em;">
+          <p style="font-size: 1.1em;">For material details, please refer to our <a href="assets/material.pdf" style="color: #3273dc;">material specifications</a> 📄</p>
+          <p style="font-size: 1.1em;">You can download the <code style="background-color: #f1f1f1; padding: 0.2em 0.4em; margin: 0; font-size: 95%; border-radius: 6px; color: #e83e8c;">.blend</code> file containing all materials <a href="https://gofile.me/7IL4k/ORMCynUxL" style="color: #3273dc;">here</a> 📦</p>
+      </div>
 
-        <div style="margin: 0 auto 2em auto; width: 200%; max-width: 1200px;">
-          <div style="text-align: left; margin-left: -400px;">
-          <img src="static/images/Overview.png" 
-               alt="Comparison and statistics overview" 
-               style="width: 108%; height: auto;">
-          <p style="font-size: 1.5em; color: #666; margin-top: 0.5em;">
-            Synthesis Dataset: Qualitative examples of the object with various materials with Lighting dataset.
-          </p>
-        </div>
+        <div style="margin: 2em auto; text-align: center;">
+            <div>
+              <img src="static/images/Overview.png" 
+                   alt="Comparison and statistics overview" 
+                   style="width: 100%; max-width: 800px; height: auto; margin: auto;">
+              <p style="font-size: 1.2em; color: #666; margin-top: 0.5em;">
+                Synthesis Dataset: Qualitative examples of the object with various materials with Lighting dataset.
+              </p>
+            </div>
         </div>
 
-        <!-- 第二张图 -->
-        <div style="margin: 0 auto 2em auto; width: 200%; max-width: 1200px;">
-          <div style="text-align: left; margin-left: -400px;">
-          <img src="static/images/gold-colmap.png" 
-               alt="Summary statistics of the 3DReflecNet dataset." 
-               style="width: 108%; height: auto;">
-          <p style="font-size: 1.5em; color: #666; margin-top: 0.5em;">
-            Real Dataset: Qualitative examples for Capturing Reflective Objects using Rotating platforms.
-          </p>
+        <div style="margin: 2em auto; text-align: center;">
+            <div>
+              <img src="static/images/gold-colmap.png" 
+                   alt="Summary statistics of the 3DReflecNet dataset." 
+                   style="width: 100%; max-width: 800px; height: auto; margin: auto;">
+              <p style="font-size: 1.2em; color: #666; margin-top: 0.5em;">
+                Real Dataset: Qualitative examples for Capturing Reflective Objects using Rotating platforms.
+              </p>
+            </div>
         </div>
 
       </div>
@@ -214,61 +209,59 @@
   </div>
 </section>
 
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Benchmark Result</h2>
-
-        <div style="margin: 0 auto 2em auto; width: 200%; max-width: 1200px;">
-          <div style="text-align: left; margin-left: -400px;">
-          <img src="static/images/Image Matching.png" 
-               alt="Comparison and statistics overview" 
-               style="width: 108%; height: auto;">
-          <p style="font-size: 1.5em; color: #666; margin-top: 0.5em;">
-            Benchmark Image Matching Performance on the 3DReflecNet dataset. The italics letter represent the result for MegaDepth dataset
-          </p>
-      </div>
-        </div>
-
-        <!-- 第二张图 -->
-        <div style="margin: 0 auto 2em auto; width: 200%; max-width: 1200px;">
-          <div style="text-align: left; margin-left: -400px;">
-          <img src="static/images/Camera_Pose_Estimation.png" 
-               alt="Summary statistics of the 3DReflecNet dataset." 
-               style="width: 108%; height: auto;">
-          <p style="font-size: 1.5em; color: #666; margin-top: 0.5em;">
-            Camera Pose Estimation
-          </p>
+<section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column">
+          <h2 class="title is-3 has-text-centered">Benchmark Result</h2>
+  
+          <div style="margin: 2em auto; text-align: center;">
+            <div>
+            <img src="static/images/Image Matching.png" 
+                 alt="Benchmark Image Matching Performance" 
+                 style="width: 100%; max-width: 800px; height: auto; margin: auto;">
+            <p style="font-size: 1.2em; color: #666; margin-top: 0.5em;">
+              Benchmark Image Matching Performance on the 3DReflecNet dataset. The italics letter represent the result for MegaDepth dataset
+            </p>
+            </div>
           </div>
-        </div>
-
-        <!-- 第三张图 -->
-        <div style="margin: 0 auto 2em auto; width: 200%; max-width: 1200px;">
-          <div style="text-align: left; margin-left: -400px;">
-          <img src="static/images/NVS.png" 
-               alt="Summary statistics of the 3DReflecNet dataset." 
-               style="width: 108%; height: auto;">
-          <p style="font-size: 1.5em; color: #666; margin-top: 0.5em;">
-            Qualitative results of 2DGS surface reconstruction fidelity across various materials. (b)Qualitative results of 3DGS novel view synthesis visual quality.
-          </p>
-        </div>
-
-        </div>
-                <div style="margin: 0 auto 2em auto; width: 200%; max-width: 1200px;">
-          <div style="text-align: left; margin-left: -400px;">
-          <img src="static/images/surface-recon.png" 
-               alt="Summary statistics of the 3DReflecNet dataset." 
-               style="width: 108%; height: auto;">
-          <p style="font-size: 1.5em; color: #666; margin-top: 0.5em;">
-            Benchmark Surface Reconstruction Performance on the 3DReflecNet dataset. The metric is Chamfer Distance.
-          </p>
+  
+          <div style="margin: 2em auto; text-align: center;">
+            <div>
+            <img src="static/images/Camera_Pose_Estimation.png" 
+                 alt="Camera Pose Estimation" 
+                 style="width: 100%; max-width: 800px; height: auto; margin: auto;">
+            <p style="font-size: 1.2em; color: #666; margin-top: 0.5em;">
+              Camera Pose Estimation
+            </p>
+            </div>
           </div>
+  
+          <div style="margin: 2em auto; text-align: center;">
+            <div>
+            <img src="static/images/NVS.png" 
+                 alt="Novel View Synthesis" 
+                 style="width: 100%; max-width: 800px; height: auto; margin: auto;">
+            <p style="font-size: 1.2em; color: #666; margin-top: 0.5em;">
+              Qualitative results of 2DGS surface reconstruction fidelity across various materials. (b)Qualitative results of 3DGS novel view synthesis visual quality.
+            </p>
+            </div>
+          </div>
+  
+          <div style="margin: 2em auto; text-align: center;">
+            <div>
+            <img src="static/images/surface-recon.png" 
+                 alt="Surface Reconstruction Performance" 
+                 style="width: 100%; max-width: 800px; height: auto; margin: auto;">
+            <p style="font-size: 1.2em; color: #666; margin-top: 0.5em;">
+              Benchmark Surface Reconstruction Performance on the 3DReflecNet dataset. The metric is Chamfer Distance.
+            </p>
+            </div>
+          </div>
+  
         </div>
-
       </div>
     </div>
-  </div>
 </section>
 
   <footer class="footer">
@@ -289,11 +282,5 @@
   </div>
 </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
+</body>
   </html>
