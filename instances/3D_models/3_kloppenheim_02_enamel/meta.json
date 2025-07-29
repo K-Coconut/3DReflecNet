@@ -1,0 +1,9 @@
+{
+  "category_name": "art",
+  "model_name": "3D_models.blend_geometry_0",
+  "material_name": "enamel",
+  "env_name": "kloppenheim_02_4k.exr",
+  "hasGlass": false,
+  "isGenerated": true,
+  "transparent": false
+}

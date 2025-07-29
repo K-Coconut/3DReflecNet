@@ -1,0 +1,27 @@
+.envmap-card {
+  transition: transform 0.3s ease;
+}
+
+.envmap-card:hover {
+  transform: translateY(-4px);
+}
+
+.envmap-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+
+.envmap-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  color: #666;
+}
+
+.envmap-format {
+  color: #1890ff;
+  font-weight: 500;
+}

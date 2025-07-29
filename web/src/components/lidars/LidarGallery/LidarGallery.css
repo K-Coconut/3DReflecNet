@@ -1,0 +1,52 @@
+.lidar-card {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.lidar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+.lidar-card .ant-card-cover {
+  position: relative;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.lidar-card .ant-card-cover img {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.lidar-card:hover .ant-card-cover img {
+  transform: scale(1.05);
+}
+
+.lidar-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #262626;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lidar-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.lidar-frames {
+  font-weight: 500;
+  color: #1890ff;
+}
+
+.lidar-range {
+  font-size: 11px;
+  color: #999;
+}

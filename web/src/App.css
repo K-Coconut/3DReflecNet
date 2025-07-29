@@ -1,0 +1,9 @@
+/* Reset some Ant Design default styles */
+.ant-layout-header {
+  line-height: initial;
+}
+
+/* Ensure full height layout */
+#root {
+  min-height: 100vh;
+}

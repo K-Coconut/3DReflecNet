@@ -1,0 +1,30 @@
+.filter-panel {
+  height: fit-content;
+  position: sticky;
+  top: 24px;
+}
+
+.filter-panel h3 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.filter-radio-group {
+  width: 100%;
+}
+
+.filter-radio-group .ant-radio {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .filter-panel {
+    position: relative;
+    top: 0;
+    margin-bottom: 16px;
+  }
+}

@@ -1,0 +1,143 @@
+.image-viewer-modal .ant-modal-content {
+  height: 100vh;
+  margin: 0;
+  top: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.image-viewer-modal .ant-modal-body {
+  height: 100vh;
+  padding: 0;
+}
+
+.image-viewer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+}
+
+.viewer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.viewer-header .ant-typography {
+  color: #fff;
+}
+
+.viewer-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.toolbar-left,
+.toolbar-center,
+.toolbar-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-center {
+  justify-content: center;
+}
+
+.toolbar-right {
+  justify-content: flex-end;
+}
+
+.viewer-toolbar .ant-tabs {
+  margin-bottom: 0;
+}
+
+.viewer-toolbar .ant-tabs-tab {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.viewer-toolbar .ant-tabs-tab-active {
+  color: #fff;
+}
+
+.viewer-toolbar .ant-slider {
+  margin: 0 12px;
+}
+
+.viewer-toolbar .ant-slider-rail {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.viewer-toolbar .ant-slider-track {
+  background: #1890ff;
+}
+
+.viewer-toolbar .ant-typography {
+  color: #fff;
+  min-width: 50px;
+  text-align: center;
+}
+
+.viewer-content {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.viewer-content img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.1s ease-out;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.viewer-footer {
+  padding: 12px 24px;
+  background: rgba(0, 0, 0, 0.8);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.keyboard-hints {
+  color: rgba(255, 255, 255, 0.65) !important;
+  font-size: 12px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .viewer-toolbar {
+    flex-wrap: wrap;
+    padding: 8px 16px;
+  }
+
+  .toolbar-left,
+  .toolbar-center,
+  .toolbar-right {
+    width: 100%;
+    justify-content: center;
+    margin: 4px 0;
+  }
+
+  .viewer-header,
+  .viewer-footer {
+    padding: 12px 16px;
+  }
+
+  .keyboard-hints {
+    display: none;
+  }
+}

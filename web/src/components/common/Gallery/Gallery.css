@@ -1,0 +1,48 @@
+.instance-card {
+  transition: all 0.3s ease;
+}
+
+.instance-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.instance-card .ant-card-cover {
+  overflow: hidden;
+}
+
+.instance-card .ant-card-cover img {
+  transition: transform 0.3s ease;
+}
+
+.instance-card:hover .ant-card-cover img {
+  transform: scale(1.05);
+}
+
+.instance-title {
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.instance-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.instance-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  color: #666;
+}
+
+.instance-info span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
