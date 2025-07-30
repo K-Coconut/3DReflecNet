@@ -18,6 +18,7 @@ import { Link } from "react-router-dom";
 import { useInstancesData } from "../hooks/useInstancesData";
 import { useEnvironmentsData } from "../hooks/useEnvironmentsData";
 import { useLidarsData } from "../hooks/useLidarsData";
+import { getPublicAssetPath } from "../utils/getPublicAssetPath";
 import teaserImage from "../assets/teaser.png";
 
 const { Title, Paragraph } = Typography;
@@ -315,6 +316,50 @@ const Home: React.FC = () => {
             </div>
           </Col>
         </Row>
+      </div>
+
+      {/* Materials Resources Section */}
+      <div style={{ padding: "40px 24px", background: "#fafafa" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
+          <Title level={3} style={{ marginBottom: "30px" }}>
+            Materials Resources
+          </Title>
+          <div>
+            <p style={{ fontSize: "1.1em" }}>
+              For material details, please refer to our{" "}
+              <a
+                href={getPublicAssetPath("static/pdfs/material.pdf")}
+                style={{ color: "#3273dc" }}
+              >
+                material specifications
+              </a>{" "}
+              📄
+            </p>
+            <p style={{ fontSize: "1.1em" }}>
+              You can download the{" "}
+              <code
+                style={{
+                  backgroundColor: "#f1f1f1",
+                  padding: "0.2em 0.4em",
+                  margin: 0,
+                  fontSize: "95%",
+                  borderRadius: "6px",
+                  color: "#e83e8c",
+                }}
+              >
+                .blend
+              </code>{" "}
+              file containing all materials{" "}
+              <a
+                href="https://gofile.me/7IL4k/ORMCynUxL"
+                style={{ color: "#3273dc" }}
+              >
+                here
+              </a>{" "}
+              📦
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Dataset Features Section */}
