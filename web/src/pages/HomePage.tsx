@@ -85,7 +85,7 @@ const HomePage: React.FC = () => {
                     {/* Interactive Demo */}
                     <span className="link-block">
                       <Link
-                        to="/instances"
+                        to="/demo"
                         className="external-link button is-normal is-rounded is-dark"
                       >
                         <span className="icon">

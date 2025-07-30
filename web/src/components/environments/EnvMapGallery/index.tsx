@@ -3,6 +3,7 @@ import { Row, Col, Card, Empty } from "antd";
 import { useNavigate } from "react-router-dom";
 import { type EnvironmentMap } from "../../../types";
 import LazyImage from "../../common/Gallery/LazyImage";
+import { getAssetPath } from "../../../utils/getAssetPath";
 import "./EnvMapGallery.css";
 
 interface EnvMapGalleryProps {
@@ -48,7 +49,7 @@ const EnvMapGallery: React.FC<EnvMapGalleryProps> = ({ environments, loading = f
             onClick={() => handleEnvMapClick(envMap.id)}
             cover={
               <LazyImage
-                src={envMap.thumbnail ? `/environments/${envMap.thumbnail}` : getPlaceholderImage(envMap)}
+                src={envMap.thumbnail ? getAssetPath(`environments/${envMap.thumbnail}`) : getPlaceholderImage(envMap)}
                 alt={envMap.name}
                 style={{ height: "200px" }}
               />
