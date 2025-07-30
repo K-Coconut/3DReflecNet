@@ -1,0 +1,80 @@
+/* Import Bulma CSS */
+@import url('/static/css/bulma.min.css');
+@import url('/static/css/fontawesome.all.min.css');
+@import url('https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css');
+
+/* Import custom styles from static */
+@import url('/static/css/index.css');
+
+/* Hero Section */
+.hero {
+  background-color: #fff;
+}
+
+.publication-title {
+  font-family: 'Google Sans', 'Noto Sans', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.publication-authors {
+  margin-bottom: 2rem;
+}
+
+.publication-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.link-block {
+  display: inline-block;
+}
+
+.external-link {
+  text-decoration: none !important;
+}
+
+/* Teaser Section */
+.hero.teaser {
+  background-color: #f5f5f5;
+}
+
+.hero.teaser .subtitle {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Abstract Section */
+.hero.is-light {
+  background-color: #f5f5f5;
+}
+
+/* Footer */
+.footer {
+  background-color: #fafafa;
+  padding: 3rem 1.5rem 3rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .publication-title {
+    font-size: 2rem !important;
+  }
+  
+  .publication-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .link-block {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .external-link {
+    width: 100%;
+  }
+}

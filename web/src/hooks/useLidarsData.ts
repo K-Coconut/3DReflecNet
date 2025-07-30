@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import type { LidarData } from "../types";
-import { getAssetPath } from "../utils/getAssetPath";
+import { getPublicAssetPath } from "../utils/getPublicAssetPath";
 
 interface UseLidarsDataReturn {
   data: LidarData | null;
@@ -17,7 +17,7 @@ export const useLidarsData = (): UseLidarsDataReturn => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch(getAssetPath("lidars.json"));
+        const response = await fetch(getPublicAssetPath("lidars.json"));
 
         if (!response.ok) {
           throw new Error(`Failed to fetch: ${response.statusText}`);

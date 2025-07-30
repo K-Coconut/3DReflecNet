@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import type { EnvironmentMapsData } from "../types";
+import { getPublicAssetPath } from "../utils/getPublicAssetPath";
 
 interface UseEnvironmentsDataReturn {
   data: EnvironmentMapsData | null;
@@ -16,7 +17,7 @@ export const useEnvironmentsData = (): UseEnvironmentsDataReturn => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch("/src/data/environments.json");
+        const response = await fetch(getPublicAssetPath("environments.json"));
 
         if (!response.ok) {
           throw new Error(`Failed to fetch: ${response.statusText}`);

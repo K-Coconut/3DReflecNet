@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import type { InstancesData } from "../types";
-import { getAssetPath } from "../utils/getAssetPath";
+import { getPublicAssetPath } from "../utils/getPublicAssetPath";
 
 interface UseInstancesDataReturn {
   data: InstancesData | null;
@@ -17,7 +17,7 @@ export const useInstancesData = (): UseInstancesDataReturn => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await fetch(getAssetPath("instances.json"));
+        const response = await fetch(getPublicAssetPath("instances.json"));
 
         if (!response.ok) {
           throw new Error(`Failed to fetch: ${response.statusText}`);
