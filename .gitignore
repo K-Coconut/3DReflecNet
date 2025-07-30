@@ -23,7 +23,6 @@ web/dist/
 /web/public/lidars/
 
 # Environment files
-.env
 .env.local
 
 # Build output
