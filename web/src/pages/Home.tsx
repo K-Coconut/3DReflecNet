@@ -14,7 +14,7 @@ import {
   RightOutlined,
   ScanOutlined,
 } from "@ant-design/icons";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useInstancesData } from "../hooks/useInstancesData";
 import { useEnvironmentsData } from "../hooks/useEnvironmentsData";
 import { useLidarsData } from "../hooks/useLidarsData";
@@ -24,6 +24,7 @@ import teaserImage from "../assets/teaser.png";
 const { Title, Paragraph } = Typography;
 
 const Home: React.FC = () => {
+  const navigate = useNavigate();
   const { data: instancesData } = useInstancesData();
   const { data: environmentsData } = useEnvironmentsData();
   const { data: lidarsData } = useLidarsData();
@@ -59,93 +60,106 @@ const Home: React.FC = () => {
         {/* Position buttons below the image */}
         <div
           style={{
-            display: "flex",
-            gap: "40px",
-            justifyContent: "center",
             position: "absolute",
             bottom: "-30px",
             left: "50%",
             transform: "translateX(-50%)",
+            width: "100%",
+            maxWidth: "1200px",
           }}
         >
-          <Link to="/instances">
-            <Button
-              size="large"
-              icon={<DatabaseOutlined />}
-              style={{
-                padding: "0 25px",
-                height: "48px",
-                fontSize: "16px",
-                background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-                border: "none",
-                color: "white",
-                fontWeight: "bold",
-                boxShadow: "0 4px 15px rgba(102, 126, 234, 0.4)",
-              }}
-            >
-              Explore Instances
-            </Button>
-          </Link>
-          <Link to="/environments">
-            <Button
-              size="large"
-              icon={<GlobalOutlined />}
-              style={{
-                padding: "0 25px",
-                height: "48px",
-                fontSize: "16px",
-                background: "linear-gradient(135deg, #52c41a 0%, #8bc34a 100%)",
-                border: "none",
-                color: "white",
-                fontWeight: "bold",
-                boxShadow: "0 4px 15px rgba(82, 196, 26, 0.4)",
-              }}
-            >
-              Environment Maps
-            </Button>
-          </Link>
-          <Link to="/lidars">
-            <Button
-              size="large"
-              icon={<ScanOutlined />}
-              style={{
-                padding: "0 25px",
-                height: "48px",
-                fontSize: "16px",
-                background: "linear-gradient(135deg, #1890ff 0%, #40a9ff 100%)",
-                border: "none",
-                color: "white",
-                fontWeight: "bold",
-                boxShadow: "0 4px 15px rgba(24, 144, 255, 0.4)",
-              }}
-            >
-              LiDAR Scans
-            </Button>
-          </Link>
-          <Button
-            size="large"
-            icon={<DownloadOutlined />}
-            style={{
-              padding: "0 20px",
-              height: "48px",
-              fontSize: "16px",
-              background: "linear-gradient(135deg, #ff9800 0%, #ffb74d 100%)",
-              border: "none",
-              color: "white",
-              fontWeight: "bold",
-              boxShadow: "0 4px 15px rgba(255, 152, 0, 0.4)",
-            }}
-            onClick={() => setDownloadModalVisible(true)}
-          >
-            Dataset (22T)
-          </Button>
+          <Row gutter={[48, 24]}>
+            <Col xs={12} sm={12} md={12} lg={6}>
+              <Link to="/instances" style={{ display: "block" }}>
+                <Button
+                  size="large"
+                  icon={<DatabaseOutlined />}
+                  style={{
+                    width: "100%",
+                    height: "48px",
+                    fontSize: "16px",
+                    background:
+                      "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+                    border: "none",
+                    color: "white",
+                    fontWeight: "bold",
+                    boxShadow: "0 4px 15px rgba(102, 126, 234, 0.4)",
+                  }}
+                >
+                  Explore Instances
+                </Button>
+              </Link>
+            </Col>
+            <Col xs={12} sm={12} md={12} lg={6}>
+              <Link to="/environments" style={{ display: "block" }}>
+                <Button
+                  size="large"
+                  icon={<GlobalOutlined />}
+                  style={{
+                    width: "100%",
+                    height: "48px",
+                    fontSize: "16px",
+                    background:
+                      "linear-gradient(135deg, #52c41a 0%, #8bc34a 100%)",
+                    border: "none",
+                    color: "white",
+                    fontWeight: "bold",
+                    boxShadow: "0 4px 15px rgba(82, 196, 26, 0.4)",
+                  }}
+                >
+                  Environment Maps
+                </Button>
+              </Link>
+            </Col>
+            <Col xs={12} sm={12} md={12} lg={6}>
+              <Link to="/lidars" style={{ display: "block" }}>
+                <Button
+                  size="large"
+                  icon={<ScanOutlined />}
+                  style={{
+                    width: "100%",
+                    height: "48px",
+                    fontSize: "16px",
+                    background:
+                      "linear-gradient(135deg, #1890ff 0%, #40a9ff 100%)",
+                    border: "none",
+                    color: "white",
+                    fontWeight: "bold",
+                    boxShadow: "0 4px 15px rgba(24, 144, 255, 0.4)",
+                  }}
+                >
+                  LiDAR Scans
+                </Button>
+              </Link>
+            </Col>
+            <Col xs={12} sm={12} md={12} lg={6}>
+              <Button
+                size="large"
+                icon={<DownloadOutlined />}
+                style={{
+                  width: "100%",
+                  height: "48px",
+                  fontSize: "16px",
+                  background:
+                    "linear-gradient(135deg, #ff9800 0%, #ffb74d 100%)",
+                  border: "none",
+                  color: "white",
+                  fontWeight: "bold",
+                  boxShadow: "0 4px 15px rgba(255, 152, 0, 0.4)",
+                }}
+                onClick={() => setDownloadModalVisible(true)}
+              >
+                Dataset (22T)
+              </Button>
+            </Col>
+          </Row>
         </div>
       </div>
 
       {/* Statistics Section */}
       <div style={{ padding: "60px 24px", background: "white" }}>
         <Row gutter={[48, 48]} style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <Col xs={12} sm={12} md={8} lg={4}>
+          <Col xs={12} sm={12} md={12} lg={6}>
             <div style={{ textAlign: "center" }}>
               <div
                 style={{
@@ -174,12 +188,12 @@ const Home: React.FC = () => {
                     color: "#8884d8",
                   }}
                 >
-                  {totalInstances}
+                  {100000}
                 </span>
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={12} md={8} lg={4}>
+          <Col xs={12} sm={12} md={12} lg={6}>
             <div style={{ textAlign: "center" }}>
               <div
                 style={{
@@ -208,12 +222,12 @@ const Home: React.FC = () => {
                     color: "#52c41a",
                   }}
                 >
-                  {totalEnvironments}
+                  {300}
                 </span>
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={12} md={8} lg={4}>
+          <Col xs={12} sm={12} md={12} lg={6}>
             <div style={{ textAlign: "center" }}>
               <div
                 style={{
@@ -232,9 +246,7 @@ const Home: React.FC = () => {
                   gap: "8px",
                 }}
               >
-                <ScanOutlined
-                  style={{ fontSize: "24px", color: "#1890ff" }}
-                />
+                <ScanOutlined style={{ fontSize: "24px", color: "#1890ff" }} />
                 <span
                   style={{
                     fontSize: "36px",
@@ -242,46 +254,12 @@ const Home: React.FC = () => {
                     color: "#1890ff",
                   }}
                 >
-                  {totalLidars}
+                  {1000}
                 </span>
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={12} md={8} lg={4}>
-            <div style={{ textAlign: "center" }}>
-              <div
-                style={{
-                  color: "#ff9800",
-                  fontSize: "14px",
-                  marginBottom: "8px",
-                }}
-              >
-                3D Models
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: "8px",
-                }}
-              >
-                <AppstoreOutlined
-                  style={{ fontSize: "24px", color: "#ff9800" }}
-                />
-                <span
-                  style={{
-                    fontSize: "36px",
-                    fontWeight: "bold",
-                    color: "#ff9800",
-                  }}
-                >
-                  {uniqueModels}
-                </span>
-              </div>
-            </div>
-          </Col>
-          <Col xs={12} sm={12} md={8} lg={4}>
+          <Col xs={12} sm={12} md={12} lg={6}>
             <div style={{ textAlign: "center" }}>
               <div
                 style={{
@@ -310,7 +288,7 @@ const Home: React.FC = () => {
                     color: "#ff4081",
                   }}
                 >
-                  {uniqueMaterials}
+                  {22}
                 </span>
               </div>
             </div>
@@ -320,11 +298,24 @@ const Home: React.FC = () => {
 
       {/* Materials Resources Section */}
       <div style={{ padding: "40px 24px", background: "#fafafa" }}>
-        <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
+        <div
+          style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}
+        >
           <Title level={3} style={{ marginBottom: "30px" }}>
             Materials Resources
           </Title>
           <div>
+            <p
+              style={{
+                fontSize: "1.1em",
+                color: "#ff4d4f",
+                marginBottom: "20px",
+              }}
+            >
+              Due to website storage limitations, only a small portion of
+              instances are displayed here. For the complete dataset (22T),
+              please click the Dataset button to download.
+            </p>
             <p style={{ fontSize: "1.1em" }}>
               For material details, please refer to our{" "}
               <a
@@ -456,9 +447,7 @@ const Home: React.FC = () => {
               <Card
                 hoverable
                 style={{ textAlign: "center" }}
-                onClick={() =>
-                  (window.location.href = "/instances?category=household")
-                }
+                onClick={() => navigate("/instances?category=household")}
               >
                 <HomeOutlined
                   style={{
@@ -480,9 +469,7 @@ const Home: React.FC = () => {
               <Card
                 hoverable
                 style={{ textAlign: "center" }}
-                onClick={() =>
-                  (window.location.href = "/instances?category=art")
-                }
+                onClick={() => navigate("/instances?category=art")}
               >
                 <PictureOutlined
                   style={{
@@ -493,7 +480,7 @@ const Home: React.FC = () => {
                 />
                 <Title level={4}>Art</Title>
                 <Paragraph type="secondary">
-                  Statues, crystals, and artistic objects
+                  Statues and artistic objects
                 </Paragraph>
                 <div style={{ color: "#eb2f96", fontWeight: "bold" }}>
                   Explore <RightOutlined />
@@ -504,9 +491,7 @@ const Home: React.FC = () => {
               <Card
                 hoverable
                 style={{ textAlign: "center" }}
-                onClick={() =>
-                  (window.location.href = "/instances?category=industry")
-                }
+                onClick={() => navigate("/instances?category=industry")}
               >
                 <ExperimentOutlined
                   style={{
@@ -528,9 +513,7 @@ const Home: React.FC = () => {
               <Card
                 hoverable
                 style={{ textAlign: "center" }}
-                onClick={() =>
-                  (window.location.href = "/instances?category=nature")
-                }
+                onClick={() => navigate("/instances?category=nature")}
               >
                 <CheckCircleOutlined
                   style={{
