@@ -25,3 +25,6 @@ web/dist/
 # Environment files
 .env
 .env.local
+
+# Build output
+demo/
