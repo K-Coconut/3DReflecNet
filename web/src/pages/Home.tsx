@@ -3,7 +3,6 @@ import { Typography, Button, Row, Col, Modal, Card } from "antd";
 import {
   DatabaseOutlined,
   GlobalOutlined,
-  AppstoreOutlined,
   BgColorsOutlined,
   DownloadOutlined,
   HomeOutlined,
@@ -15,9 +14,6 @@ import {
   ScanOutlined,
 } from "@ant-design/icons";
 import { Link, useNavigate } from "react-router-dom";
-import { useInstancesData } from "../hooks/useInstancesData";
-import { useEnvironmentsData } from "../hooks/useEnvironmentsData";
-import { useLidarsData } from "../hooks/useLidarsData";
 import { getPublicAssetPath } from "../utils/getPublicAssetPath";
 import teaserImage from "../assets/teaser.png";
 
@@ -25,21 +21,7 @@ const { Title, Paragraph } = Typography;
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
-  const { data: instancesData } = useInstancesData();
-  const { data: environmentsData } = useEnvironmentsData();
-  const { data: lidarsData } = useLidarsData();
   const [downloadModalVisible, setDownloadModalVisible] = useState(false);
-
-  // Calculate statistics
-  const totalInstances = instancesData?.instances.length || 0;
-  const totalEnvironments = environmentsData?.environments.length || 0;
-  const totalLidars = lidarsData?.totalLidars || 0;
-  const uniqueModels = instancesData
-    ? new Set(instancesData.instances.map((inst) => inst.model || "")).size
-    : 0;
-  const uniqueMaterials = instancesData
-    ? new Set(instancesData.instances.map((inst) => inst.category || "")).size
-    : 0;
 
   return (
     <div style={{ minHeight: "100vh", background: "#f0f2f5" }}>
