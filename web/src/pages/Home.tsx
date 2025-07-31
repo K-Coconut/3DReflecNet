@@ -289,9 +289,12 @@ const Home: React.FC = () => {
                 marginBottom: "20px",
               }}
             >
-              Due to website storage limitations, only a small portion of
-              instances are displayed here. For the complete dataset (22T),
-              please click the Dataset button to download.
+              <strong>
+                Due to website storage limitations, only a small portion of
+                instances are displayed here. For the demo dataset (1T) and
+                complete dataset (22T), please click the Dataset button to
+                download.
+              </strong>
             </p>
             <p style={{ fontSize: "1.1em" }}>
               For material details, please refer to our{" "}
@@ -499,7 +502,7 @@ const Home: React.FC = () => {
         ]}
       >
         <div style={{ marginBottom: 20 }}>
-          <h4>2T Demo Dataset</h4>
+          <h4>1T Demo Dataset</h4>
           <p>
             Download link:{" "}
             <a
@@ -514,10 +517,13 @@ const Home: React.FC = () => {
         <div>
           <h4>Full Dataset (22T)</h4>
           <p>
+            Due to the large volume of data, it is vulnerable to DDoS attacks.
             To request access to the full dataset, please send an email to:{" "}
             <a href="mailto:zhichengliang1@link.cuhk.edu.cn">
               zhichengliang1@link.cuhk.edu.cn
-            </a>
+            </a>{" "}
+            (During the paper’s review process, we do not require any identity
+            verification)
           </p>
         </div>
       </Modal>

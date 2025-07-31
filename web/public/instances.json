@@ -1357,14 +1357,14 @@
       }
     },
     {
-      "id": "10_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "10_chinese_garden_brazilWood",
+      "name": "Chinese Garden BrazilWood",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "brazilWood",
       "model": "Roman_Statue.blend_The Mist",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/10_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "chinese_garden_4k.exr",
+      "preview": "/instances/Roman_Statue/10_chinese_garden_brazilWood/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -1583,14 +1583,14 @@
       }
     },
     {
-      "id": "11_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "11_dancing_hall_whiteClay",
+      "name": "Dancing Hall WhiteClay",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "whiteClay",
       "model": "Roman_Statue.blend_The Graces with Cupid's Arrow, and Cupid with the Lyre",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/11_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "dancing_hall_4k.exr",
+      "preview": "/instances/Roman_Statue/11_dancing_hall_whiteClay/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -1809,14 +1809,14 @@
       }
     },
     {
-      "id": "12_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "12_dancing_hall_whiteClay",
+      "name": "Dancing Hall WhiteClay",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "whiteClay",
       "model": "Roman_Statue.blend_The Faun",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/12_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "dancing_hall_4k.exr",
+      "preview": "/instances/Roman_Statue/12_dancing_hall_whiteClay/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -2035,14 +2035,14 @@
       }
     },
     {
-      "id": "13_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "13_dancing_hall_whiteClay",
+      "name": "Dancing Hall WhiteClay",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "whiteClay",
       "model": "Roman_Statue.blend_The Chiaramonti Niobid",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/13_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "dancing_hall_4k.exr",
+      "preview": "/instances/Roman_Statue/13_dancing_hall_whiteClay/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -2261,14 +2261,14 @@
       }
     },
     {
-      "id": "14_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "14_dancing_hall_whiteClay",
+      "name": "Dancing Hall WhiteClay",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "whiteClay",
       "model": "Roman_Statue.blend_The Beschorner Cross",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/14_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "dancing_hall_4k.exr",
+      "preview": "/instances/Roman_Statue/14_dancing_hall_whiteClay/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -2487,14 +2487,14 @@
       }
     },
     {
-      "id": "15_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "15_dancing_hall_whiteClay",
+      "name": "Dancing Hall WhiteClay",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "whiteClay",
       "model": "Roman_Statue.blend_The Annunciation",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/15_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "dancing_hall_4k.exr",
+      "preview": "/instances/Roman_Statue/15_dancing_hall_whiteClay/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -2713,14 +2713,14 @@
       }
     },
     {
-      "id": "16_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "16_buikslotermeerplein_marble",
+      "name": "Buikslotermeerplein Marble",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "marble",
       "model": "Roman_Statue.blend_Synagoga",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/16_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "buikslotermeerplein_4k.exr",
+      "preview": "/instances/Roman_Statue/16_buikslotermeerplein_marble/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -2939,14 +2939,14 @@
       }
     },
     {
-      "id": "17_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "17_buikslotermeerplein_marble",
+      "name": "Buikslotermeerplein Marble",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "marble",
       "model": "Roman_Statue.blend_Striding Eagle",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/17_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "buikslotermeerplein_4k.exr",
+      "preview": "/instances/Roman_Statue/17_buikslotermeerplein_marble/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -3165,14 +3165,14 @@
       }
     },
     {
-      "id": "18_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "18_buikslotermeerplein_marble",
+      "name": "Buikslotermeerplein Marble",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "marble",
       "model": "Roman_Statue.blend_Stone statue of Bridget of Sweden",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/18_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "buikslotermeerplein_4k.exr",
+      "preview": "/instances/Roman_Statue/18_buikslotermeerplein_marble/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -3391,14 +3391,14 @@
       }
     },
     {
-      "id": "19_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "19_buikslotermeerplein_marble",
+      "name": "Buikslotermeerplein Marble",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "marble",
       "model": "Roman_Statue.blend_Statue of St. Nepomuk",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/19_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "buikslotermeerplein_4k.exr",
+      "preview": "/instances/Roman_Statue/19_buikslotermeerplein_marble/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -3843,14 +3843,14 @@
       }
     },
     {
-      "id": "20_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "20_buikslotermeerplein_marble",
+      "name": "Buikslotermeerplein Marble",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "marble",
       "model": "Roman_Statue.blend_Statue of St. Benedict of Nursia",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/20_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "buikslotermeerplein_4k.exr",
+      "preview": "/instances/Roman_Statue/20_buikslotermeerplein_marble/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -4069,14 +4069,14 @@
       }
     },
     {
-      "id": "21_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "21_cobblestone_street_night_Bronze",
+      "name": "Cobblestone Street Night Bronze",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Resting Goat",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/21_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "cobblestone_street_night_4k.exr",
+      "preview": "/instances/Roman_Statue/21_cobblestone_street_night_Bronze/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -4295,14 +4295,14 @@
       }
     },
     {
-      "id": "22_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "22_cobblestone_street_night_Bronze",
+      "name": "Cobblestone Street Night Bronze",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of John of Nepomuk",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/22_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "cobblestone_street_night_4k.exr",
+      "preview": "/instances/Roman_Statue/22_cobblestone_street_night_Bronze/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -4521,14 +4521,14 @@
       }
     },
     {
-      "id": "23_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "23_cobblestone_street_night_Bronze",
+      "name": "Cobblestone Street Night Bronze",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Hygieia",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/23_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "cobblestone_street_night_4k.exr",
+      "preview": "/instances/Roman_Statue/23_cobblestone_street_night_Bronze/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -4747,14 +4747,14 @@
       }
     },
     {
-      "id": "24_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "24_cobblestone_street_night_Bronze",
+      "name": "Cobblestone Street Night Bronze",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Asclepius.001",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/24_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "cobblestone_street_night_4k.exr",
+      "preview": "/instances/Roman_Statue/24_cobblestone_street_night_Bronze/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -4973,14 +4973,14 @@
       }
     },
     {
-      "id": "25_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "25_cobblestone_street_night_Bronze",
+      "name": "Cobblestone Street Night Bronze",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Asclepius broken",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/25_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "cobblestone_street_night_4k.exr",
+      "preview": "/instances/Roman_Statue/25_cobblestone_street_night_Bronze/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -6103,14 +6103,14 @@
       }
     },
     {
-      "id": "6_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "6_chinese_garden_brazilWood",
+      "name": "Chinese Garden BrazilWood",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "brazilWood",
       "model": "Roman_Statue.blend_The_Seated_Girl",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/6_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "chinese_garden_4k.exr",
+      "preview": "/instances/Roman_Statue/6_chinese_garden_brazilWood/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -6329,14 +6329,14 @@
       }
     },
     {
-      "id": "7_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "7_chinese_garden_brazilWood",
+      "name": "Chinese Garden BrazilWood",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "brazilWood",
       "model": "Roman_Statue.blend_The Sleeping Ariadne",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/7_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "chinese_garden_4k.exr",
+      "preview": "/instances/Roman_Statue/7_chinese_garden_brazilWood/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -6555,14 +6555,14 @@
       }
     },
     {
-      "id": "8_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "8_chinese_garden_brazilWood",
+      "name": "Chinese Garden BrazilWood",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "brazilWood",
       "model": "Roman_Statue.blend_The Rebellious Slave broken",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/8_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "chinese_garden_4k.exr",
+      "preview": "/instances/Roman_Statue/8_chinese_garden_brazilWood/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -6781,14 +6781,14 @@
       }
     },
     {
-      "id": "9_snowy_field_smoothGold",
-      "name": "Snowy Field SmoothGold",
+      "id": "9_chinese_garden_brazilWood",
+      "name": "Chinese Garden BrazilWood",
       "category": "art",
       "categoryFolder": "Roman_Statue",
-      "material": "smoothGold",
+      "material": "brazilWood",
       "model": "Roman_Statue.blend_The Rebellious Slave",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue/9_snowy_field_smoothGold/train/frame_00011.png",
+      "environment": "chinese_garden_4k.exr",
+      "preview": "/instances/Roman_Statue/9_chinese_garden_brazilWood/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -7007,14 +7007,14 @@
       }
     },
     {
-      "id": "10_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "10_chinese_garden_brazilWood",
+      "name": "Chinese Garden BrazilWood",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "brazilWood",
       "model": "Roman_Statue.blend_The Mist",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/10_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "chinese_garden_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/10_chinese_garden_brazilWood/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -7233,14 +7233,14 @@
       }
     },
     {
-      "id": "11_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "11_dancing_hall_whiteClay",
+      "name": "Dancing Hall WhiteClay",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "whiteClay",
       "model": "Roman_Statue.blend_The Graces with Cupid's Arrow, and Cupid with the Lyre",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/11_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "dancing_hall_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/11_dancing_hall_whiteClay/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -7453,20 +7453,20 @@
       },
       "frameCount": 50,
       "metadata": {
-        "hasGlass": true,
+        "hasGlass": false,
         "isGenerated": false,
         "transparent": false
       }
     },
     {
-      "id": "12_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "12_dancing_hall_whiteClay",
+      "name": "Dancing Hall WhiteClay",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "whiteClay",
       "model": "Roman_Statue.blend_The Faun",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/12_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "dancing_hall_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/12_dancing_hall_whiteClay/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -7679,20 +7679,20 @@
       },
       "frameCount": 50,
       "metadata": {
-        "hasGlass": true,
+        "hasGlass": false,
         "isGenerated": false,
         "transparent": false
       }
     },
     {
-      "id": "13_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "13_dancing_hall_whiteClay",
+      "name": "Dancing Hall WhiteClay",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "whiteClay",
       "model": "Roman_Statue.blend_The Chiaramonti Niobid",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/13_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "dancing_hall_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/13_dancing_hall_whiteClay/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -7905,20 +7905,20 @@
       },
       "frameCount": 50,
       "metadata": {
-        "hasGlass": true,
+        "hasGlass": false,
         "isGenerated": false,
         "transparent": false
       }
     },
     {
-      "id": "14_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "14_dancing_hall_whiteClay",
+      "name": "Dancing Hall WhiteClay",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "whiteClay",
       "model": "Roman_Statue.blend_The Beschorner Cross",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/14_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "dancing_hall_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/14_dancing_hall_whiteClay/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -8131,20 +8131,20 @@
       },
       "frameCount": 50,
       "metadata": {
-        "hasGlass": true,
+        "hasGlass": false,
         "isGenerated": false,
         "transparent": false
       }
     },
     {
-      "id": "15_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "15_dancing_hall_whiteClay",
+      "name": "Dancing Hall WhiteClay",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "whiteClay",
       "model": "Roman_Statue.blend_The Annunciation",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/15_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "dancing_hall_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/15_dancing_hall_whiteClay/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -8357,20 +8357,20 @@
       },
       "frameCount": 50,
       "metadata": {
-        "hasGlass": true,
+        "hasGlass": false,
         "isGenerated": false,
         "transparent": false
       }
     },
     {
-      "id": "16_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "16_buikslotermeerplein_marble",
+      "name": "Buikslotermeerplein Marble",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "marble",
       "model": "Roman_Statue.blend_Synagoga",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/16_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "buikslotermeerplein_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/16_buikslotermeerplein_marble/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -8589,14 +8589,14 @@
       }
     },
     {
-      "id": "17_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "17_buikslotermeerplein_marble",
+      "name": "Buikslotermeerplein Marble",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "marble",
       "model": "Roman_Statue.blend_Striding Eagle",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/17_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "buikslotermeerplein_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/17_buikslotermeerplein_marble/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -8815,14 +8815,14 @@
       }
     },
     {
-      "id": "18_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "18_buikslotermeerplein_marble",
+      "name": "Buikslotermeerplein Marble",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "marble",
       "model": "Roman_Statue.blend_Stone statue of Bridget of Sweden",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/18_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "buikslotermeerplein_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/18_buikslotermeerplein_marble/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -9041,14 +9041,14 @@
       }
     },
     {
-      "id": "19_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "19_buikslotermeerplein_marble",
+      "name": "Buikslotermeerplein Marble",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "marble",
       "model": "Roman_Statue.blend_Statue of St. Nepomuk",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/19_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "buikslotermeerplein_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/19_buikslotermeerplein_marble/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -9493,14 +9493,14 @@
       }
     },
     {
-      "id": "20_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "20_buikslotermeerplein_marble",
+      "name": "Buikslotermeerplein Marble",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "marble",
       "model": "Roman_Statue.blend_Statue of St. Benedict of Nursia",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/20_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "buikslotermeerplein_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/20_buikslotermeerplein_marble/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -9719,14 +9719,14 @@
       }
     },
     {
-      "id": "21_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "21_cobblestone_street_night_Bronze",
+      "name": "Cobblestone Street Night Bronze",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Resting Goat",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/21_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "cobblestone_street_night_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/21_cobblestone_street_night_Bronze/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -9945,14 +9945,14 @@
       }
     },
     {
-      "id": "22_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "22_cobblestone_street_night_Bronze",
+      "name": "Cobblestone Street Night Bronze",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of John of Nepomuk",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/22_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "cobblestone_street_night_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/22_cobblestone_street_night_Bronze/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -10171,14 +10171,14 @@
       }
     },
     {
-      "id": "23_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "23_cobblestone_street_night_Bronze",
+      "name": "Cobblestone Street Night Bronze",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Hygieia",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/23_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "cobblestone_street_night_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/23_cobblestone_street_night_Bronze/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -10397,14 +10397,14 @@
       }
     },
     {
-      "id": "24_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "24_cobblestone_street_night_Bronze",
+      "name": "Cobblestone Street Night Bronze",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Asclepius.001",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/24_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "cobblestone_street_night_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/24_cobblestone_street_night_Bronze/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -10623,14 +10623,14 @@
       }
     },
     {
-      "id": "25_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "25_cobblestone_street_night_Bronze",
+      "name": "Cobblestone Street Night Bronze",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Asclepius broken",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/25_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "cobblestone_street_night_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/25_cobblestone_street_night_Bronze/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -11753,14 +11753,14 @@
       }
     },
     {
-      "id": "6_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "6_chinese_garden_brazilWood",
+      "name": "Chinese Garden BrazilWood",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "brazilWood",
       "model": "Roman_Statue.blend_The_Seated_Girl",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/6_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "chinese_garden_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/6_chinese_garden_brazilWood/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -11979,14 +11979,14 @@
       }
     },
     {
-      "id": "7_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "7_chinese_garden_brazilWood",
+      "name": "Chinese Garden BrazilWood",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "brazilWood",
       "model": "Roman_Statue.blend_The Sleeping Ariadne",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/7_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "chinese_garden_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/7_chinese_garden_brazilWood/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -12205,14 +12205,14 @@
       }
     },
     {
-      "id": "8_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "8_chinese_garden_brazilWood",
+      "name": "Chinese Garden BrazilWood",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "brazilWood",
       "model": "Roman_Statue.blend_The Rebellious Slave broken",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/8_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "chinese_garden_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/8_chinese_garden_brazilWood/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -12431,14 +12431,14 @@
       }
     },
     {
-      "id": "9_snowy_field_smoothGold_glass",
-      "name": "Snowy Field SmoothGold Glass",
+      "id": "9_chinese_garden_brazilWood",
+      "name": "Chinese Garden BrazilWood",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
-      "material": "smoothGold",
+      "material": "brazilWood",
       "model": "Roman_Statue.blend_The Rebellious Slave",
-      "environment": "snowy_field_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/9_snowy_field_smoothGold_glass/train/frame_00011.png",
+      "environment": "chinese_garden_4k.exr",
+      "preview": "/instances/Roman_Statue_glass/9_chinese_garden_brazilWood/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -12661,5 +12661,5 @@
     "art"
   ],
   "totalInstances": 56,
-  "lastUpdated": "2025-07-31T05:04:51.223Z"
+  "lastUpdated": "2025-07-31T11:34:38.407Z"
 }
