@@ -7007,14 +7007,14 @@
       }
     },
     {
-      "id": "10_chinese_garden_brazilWood",
-      "name": "Chinese Garden BrazilWood",
+      "id": "10_chinese_garden_brazilWood_glass",
+      "name": "Chinese Garden BrazilWood Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "brazilWood",
       "model": "Roman_Statue.blend_The Mist",
       "environment": "chinese_garden_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/10_chinese_garden_brazilWood/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/10_chinese_garden_brazilWood_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -7233,14 +7233,14 @@
       }
     },
     {
-      "id": "11_dancing_hall_whiteClay",
-      "name": "Dancing Hall WhiteClay",
+      "id": "11_dancing_hall_whiteClay_glass",
+      "name": "Dancing Hall WhiteClay Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "whiteClay",
       "model": "Roman_Statue.blend_The Graces with Cupid's Arrow, and Cupid with the Lyre",
       "environment": "dancing_hall_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/11_dancing_hall_whiteClay/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/11_dancing_hall_whiteClay_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -7459,14 +7459,14 @@
       }
     },
     {
-      "id": "12_dancing_hall_whiteClay",
-      "name": "Dancing Hall WhiteClay",
+      "id": "12_dancing_hall_whiteClay_glass",
+      "name": "Dancing Hall WhiteClay Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "whiteClay",
       "model": "Roman_Statue.blend_The Faun",
       "environment": "dancing_hall_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/12_dancing_hall_whiteClay/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/12_dancing_hall_whiteClay_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -7685,14 +7685,14 @@
       }
     },
     {
-      "id": "13_dancing_hall_whiteClay",
-      "name": "Dancing Hall WhiteClay",
+      "id": "13_dancing_hall_whiteClay_glass",
+      "name": "Dancing Hall WhiteClay Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "whiteClay",
       "model": "Roman_Statue.blend_The Chiaramonti Niobid",
       "environment": "dancing_hall_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/13_dancing_hall_whiteClay/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/13_dancing_hall_whiteClay_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -7911,14 +7911,14 @@
       }
     },
     {
-      "id": "14_dancing_hall_whiteClay",
-      "name": "Dancing Hall WhiteClay",
+      "id": "14_dancing_hall_whiteClay_glass",
+      "name": "Dancing Hall WhiteClay Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "whiteClay",
       "model": "Roman_Statue.blend_The Beschorner Cross",
       "environment": "dancing_hall_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/14_dancing_hall_whiteClay/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/14_dancing_hall_whiteClay_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -8137,14 +8137,14 @@
       }
     },
     {
-      "id": "15_dancing_hall_whiteClay",
-      "name": "Dancing Hall WhiteClay",
+      "id": "15_dancing_hall_whiteClay_glass",
+      "name": "Dancing Hall WhiteClay Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "whiteClay",
       "model": "Roman_Statue.blend_The Annunciation",
       "environment": "dancing_hall_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/15_dancing_hall_whiteClay/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/15_dancing_hall_whiteClay_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -8363,14 +8363,14 @@
       }
     },
     {
-      "id": "16_buikslotermeerplein_marble",
-      "name": "Buikslotermeerplein Marble",
+      "id": "16_buikslotermeerplein_marble_glass",
+      "name": "Buikslotermeerplein Marble Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "marble",
       "model": "Roman_Statue.blend_Synagoga",
       "environment": "buikslotermeerplein_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/16_buikslotermeerplein_marble/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/16_buikslotermeerplein_marble_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -8589,14 +8589,14 @@
       }
     },
     {
-      "id": "17_buikslotermeerplein_marble",
-      "name": "Buikslotermeerplein Marble",
+      "id": "17_buikslotermeerplein_marble_glass",
+      "name": "Buikslotermeerplein Marble Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "marble",
       "model": "Roman_Statue.blend_Striding Eagle",
       "environment": "buikslotermeerplein_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/17_buikslotermeerplein_marble/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/17_buikslotermeerplein_marble_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -8815,14 +8815,14 @@
       }
     },
     {
-      "id": "18_buikslotermeerplein_marble",
-      "name": "Buikslotermeerplein Marble",
+      "id": "18_buikslotermeerplein_marble_glass",
+      "name": "Buikslotermeerplein Marble Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "marble",
       "model": "Roman_Statue.blend_Stone statue of Bridget of Sweden",
       "environment": "buikslotermeerplein_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/18_buikslotermeerplein_marble/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/18_buikslotermeerplein_marble_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -9041,14 +9041,14 @@
       }
     },
     {
-      "id": "19_buikslotermeerplein_marble",
-      "name": "Buikslotermeerplein Marble",
+      "id": "19_buikslotermeerplein_marble_glass",
+      "name": "Buikslotermeerplein Marble Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "marble",
       "model": "Roman_Statue.blend_Statue of St. Nepomuk",
       "environment": "buikslotermeerplein_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/19_buikslotermeerplein_marble/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/19_buikslotermeerplein_marble_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -9493,14 +9493,14 @@
       }
     },
     {
-      "id": "20_buikslotermeerplein_marble",
-      "name": "Buikslotermeerplein Marble",
+      "id": "20_buikslotermeerplein_marble_glass",
+      "name": "Buikslotermeerplein Marble Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "marble",
       "model": "Roman_Statue.blend_Statue of St. Benedict of Nursia",
       "environment": "buikslotermeerplein_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/20_buikslotermeerplein_marble/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/20_buikslotermeerplein_marble_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -9719,14 +9719,14 @@
       }
     },
     {
-      "id": "21_cobblestone_street_night_Bronze",
-      "name": "Cobblestone Street Night Bronze",
+      "id": "21_cobblestone_street_night_Bronze_glass",
+      "name": "Cobblestone Street Night Bronze Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Resting Goat",
       "environment": "cobblestone_street_night_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/21_cobblestone_street_night_Bronze/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/21_cobblestone_street_night_Bronze_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -9945,14 +9945,14 @@
       }
     },
     {
-      "id": "22_cobblestone_street_night_Bronze",
-      "name": "Cobblestone Street Night Bronze",
+      "id": "22_cobblestone_street_night_Bronze_glass",
+      "name": "Cobblestone Street Night Bronze Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of John of Nepomuk",
       "environment": "cobblestone_street_night_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/22_cobblestone_street_night_Bronze/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/22_cobblestone_street_night_Bronze_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -10171,14 +10171,14 @@
       }
     },
     {
-      "id": "23_cobblestone_street_night_Bronze",
-      "name": "Cobblestone Street Night Bronze",
+      "id": "23_cobblestone_street_night_Bronze_glass",
+      "name": "Cobblestone Street Night Bronze Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Hygieia",
       "environment": "cobblestone_street_night_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/23_cobblestone_street_night_Bronze/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/23_cobblestone_street_night_Bronze_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -10397,14 +10397,14 @@
       }
     },
     {
-      "id": "24_cobblestone_street_night_Bronze",
-      "name": "Cobblestone Street Night Bronze",
+      "id": "24_cobblestone_street_night_Bronze_glass",
+      "name": "Cobblestone Street Night Bronze Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Asclepius.001",
       "environment": "cobblestone_street_night_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/24_cobblestone_street_night_Bronze/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/24_cobblestone_street_night_Bronze_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -10623,14 +10623,14 @@
       }
     },
     {
-      "id": "25_cobblestone_street_night_Bronze",
-      "name": "Cobblestone Street Night Bronze",
+      "id": "25_cobblestone_street_night_Bronze_glass",
+      "name": "Cobblestone Street Night Bronze Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "Bronze",
       "model": "Roman_Statue.blend_Statue of Asclepius broken",
       "environment": "cobblestone_street_night_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/25_cobblestone_street_night_Bronze/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/25_cobblestone_street_night_Bronze_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -11753,14 +11753,14 @@
       }
     },
     {
-      "id": "6_chinese_garden_brazilWood",
-      "name": "Chinese Garden BrazilWood",
+      "id": "6_chinese_garden_brazilWood_glass",
+      "name": "Chinese Garden BrazilWood Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "brazilWood",
       "model": "Roman_Statue.blend_The_Seated_Girl",
       "environment": "chinese_garden_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/6_chinese_garden_brazilWood/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/6_chinese_garden_brazilWood_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -11979,14 +11979,14 @@
       }
     },
     {
-      "id": "7_chinese_garden_brazilWood",
-      "name": "Chinese Garden BrazilWood",
+      "id": "7_chinese_garden_brazilWood_glass",
+      "name": "Chinese Garden BrazilWood Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "brazilWood",
       "model": "Roman_Statue.blend_The Sleeping Ariadne",
       "environment": "chinese_garden_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/7_chinese_garden_brazilWood/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/7_chinese_garden_brazilWood_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -12205,14 +12205,14 @@
       }
     },
     {
-      "id": "8_chinese_garden_brazilWood",
-      "name": "Chinese Garden BrazilWood",
+      "id": "8_chinese_garden_brazilWood_glass",
+      "name": "Chinese Garden BrazilWood Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "brazilWood",
       "model": "Roman_Statue.blend_The Rebellious Slave broken",
       "environment": "chinese_garden_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/8_chinese_garden_brazilWood/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/8_chinese_garden_brazilWood_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -12431,14 +12431,14 @@
       }
     },
     {
-      "id": "9_chinese_garden_brazilWood",
-      "name": "Chinese Garden BrazilWood",
+      "id": "9_chinese_garden_brazilWood_glass",
+      "name": "Chinese Garden BrazilWood Glass",
       "category": "art",
       "categoryFolder": "Roman_Statue_glass",
       "material": "brazilWood",
       "model": "Roman_Statue.blend_The Rebellious Slave",
       "environment": "chinese_garden_4k.exr",
-      "preview": "/instances/Roman_Statue_glass/9_chinese_garden_brazilWood/train/frame_00011.png",
+      "preview": "/instances/Roman_Statue_glass/9_chinese_garden_brazilWood_glass/train/frame_00011.png",
       "images": {
         "rgb": [
           "frame_00001.png",
@@ -12661,5 +12661,5 @@
     "art"
   ],
   "totalInstances": 56,
-  "lastUpdated": "2025-07-31T11:34:38.407Z"
+  "lastUpdated": "2025-07-31T11:49:34.517Z"
 }
