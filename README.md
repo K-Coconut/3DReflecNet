@@ -7,7 +7,7 @@
 Please refer to our new [Website](https://k-coconut.github.io/3DReflecNet/) 🚀🚀🚀
 
 - Due to the storage constraint by github, we show partially demo instances for quick reference. We will deploy full service on cloud service when security check approved.
-- Before that, the demo dataset (~408G) can be downloaded via [Sharepoint](https://cuhko365.sharepoint.com/sites/CUHKSZ-SSE-INML/SitePages/Home.aspx?e=1:aab1118873e1469f8e893dd8205a3a99) and Full dataset (>22T) can be requested via email at zhichengliang1@link.cuhk.edu.cn.
+- Before that, the demo dataset (~1T) can be downloaded via [Sharepoint](https://cuhko365.sharepoint.com/sites/CUHKSZ-SSE-INML/SitePages/Home.aspx?e=1:aab1118873e1469f8e893dd8205a3a99) and Full dataset (>22T) can be requested via email at zhichengliang1@link.cuhk.edu.cn (Due to the large volume of data, it is vulnerable to DDoS attacks. During the paper’s review process, we do not require any identity verification).
 
 
 ## Materials Settings
