@@ -5,22 +5,17 @@ import {
   GlobalOutlined,
   BgColorsOutlined,
   DownloadOutlined,
-  HomeOutlined,
-  ExperimentOutlined,
   PictureOutlined,
   ThunderboltOutlined,
-  CheckCircleOutlined,
-  RightOutlined,
   ScanOutlined,
 } from "@ant-design/icons";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { getPublicAssetPath } from "../utils/getPublicAssetPath";
 import teaserImage from "../assets/teaser.png";
 
 const { Title, Paragraph } = Typography;
 
 const Home: React.FC = () => {
-  const navigate = useNavigate();
   const [downloadModalVisible, setDownloadModalVisible] = useState(false);
 
   return (
@@ -415,110 +410,8 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-      {/* Categories Section */}
-      <div style={{ padding: "80px 24px", background: "white" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <Title
-            level={2}
-            style={{ textAlign: "center", marginBottom: "50px" }}
-          >
-            Instance Categories
-          </Title>
-          <Row gutter={[24, 24]}>
-            <Col xs={24} sm={12} md={6}>
-              <Card
-                hoverable
-                style={{ textAlign: "center" }}
-                onClick={() => navigate("/instances?category=household")}
-              >
-                <HomeOutlined
-                  style={{
-                    fontSize: "48px",
-                    color: "#722ed1",
-                    marginBottom: "16px",
-                  }}
-                />
-                <Title level={4}>Household</Title>
-                <Paragraph type="secondary">
-                  Furniture, beds, chairs, tables, and everyday objects
-                </Paragraph>
-                <div style={{ color: "#722ed1", fontWeight: "bold" }}>
-                  Explore <RightOutlined />
-                </div>
-              </Card>
-            </Col>
-            <Col xs={24} sm={12} md={6}>
-              <Card
-                hoverable
-                style={{ textAlign: "center" }}
-                onClick={() => navigate("/instances?category=art")}
-              >
-                <PictureOutlined
-                  style={{
-                    fontSize: "48px",
-                    color: "#eb2f96",
-                    marginBottom: "16px",
-                  }}
-                />
-                <Title level={4}>Art</Title>
-                <Paragraph type="secondary">
-                  Statues and artistic objects
-                </Paragraph>
-                <div style={{ color: "#eb2f96", fontWeight: "bold" }}>
-                  Explore <RightOutlined />
-                </div>
-              </Card>
-            </Col>
-            <Col xs={24} sm={12} md={6}>
-              <Card
-                hoverable
-                style={{ textAlign: "center" }}
-                onClick={() => navigate("/instances?category=industry")}
-              >
-                <ExperimentOutlined
-                  style={{
-                    fontSize: "48px",
-                    color: "#1890ff",
-                    marginBottom: "16px",
-                  }}
-                />
-                <Title level={4}>Industry</Title>
-                <Paragraph type="secondary">
-                  Electronic devices and industrial equipment
-                </Paragraph>
-                <div style={{ color: "#1890ff", fontWeight: "bold" }}>
-                  Explore <RightOutlined />
-                </div>
-              </Card>
-            </Col>
-            <Col xs={24} sm={12} md={6}>
-              <Card
-                hoverable
-                style={{ textAlign: "center" }}
-                onClick={() => navigate("/instances?category=nature")}
-              >
-                <CheckCircleOutlined
-                  style={{
-                    fontSize: "48px",
-                    color: "#52c41a",
-                    marginBottom: "16px",
-                  }}
-                />
-                <Title level={4}>Nature</Title>
-                <Paragraph type="secondary">
-                  Plants and natural objects
-                </Paragraph>
-                <div style={{ color: "#52c41a", fontWeight: "bold" }}>
-                  Explore <RightOutlined />
-                </div>
-              </Card>
-            </Col>
-          </Row>
-        </div>
-      </div>
-
       {/* Quick Links Section */}
-      <div style={{ padding: "80px 24px", background: "#f0f2f5" }}>
+      <div style={{ padding: "80px 24px", background: "white" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <Title
             level={2}
